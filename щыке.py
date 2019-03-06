@@ -24,8 +24,8 @@ def count():
     print(k1)
 
     if (k > k1):
-        D = np.where(D, D * (-1), None)
-    print('\n', D)
+        d = np.where(D, D * (-1), None)
+    print('\n', d)
 
 def mult():
     K = int(input('Введите число на которое будент умножена матрица A: '))
