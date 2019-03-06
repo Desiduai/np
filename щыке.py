@@ -24,7 +24,7 @@ def count():
     print(k1)
 
     if (k > k1):
-        d = np.where(D, D * (-1), None)
+        D = np.where(D, D * (-1), None)
     print('\n', D)
 
 def mult():
